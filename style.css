@@ -1,0 +1,22 @@
+body{
+    font-family: Arial;
+    padding: 20px;
+background-color: aquamarine;
+}
+input{
+    padding: 5px;
+    background-color: bisque;
+}
+button{
+    padding: 5px 10px;
+    margin: 2px;
+    background-color: bisque;
+
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+li{
+      margin-bottom: 8px;
+    }
