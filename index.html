@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Firebase SDK (Compat Version) -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database-compat.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyCVtZjYiSmJMBYfH8kfiWjKliD_y0ICWdY",
+      authDomain: "todoapp-2d0be.firebaseapp.com",
+      databaseURL: "https://todoapp-2d0be-default-rtdb.firebaseio.com",
+      projectId: "todoapp-2d0be",
+      storageBucket: "todoapp-2d0be.appspot.com",
+      messagingSenderId: "226536959759",
+      appId: "1:226536959759:web:077e9102819c3cc969987a"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
 </head>
+
 <body>
      <h1>What Todo?</h1>
 
